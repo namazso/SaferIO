@@ -602,7 +602,7 @@ const static IOCTL_HANDLER IOCTL_HANDLERS[] = {
         return STATUS_INVALID_BUFFER_SIZE;
 
       const auto Cmd = (IOCTL_PCI_CONFIG_CMD*)Buffer;
-      return PCIConfigRead(Cmd, Cmd + 1, InSize - sizeof(IOCTL_PCI_CONFIG_CMD));
+      return PCIConfigWrite(Cmd, Cmd + 1, InSize - sizeof(IOCTL_PCI_CONFIG_CMD));
     }
   },
   {
