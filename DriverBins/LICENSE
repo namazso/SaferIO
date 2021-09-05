@@ -1,0 +1,9 @@
+These signed driver files are from GPU-Z v2.41.0 distributed under this license:
+
+GPU-Z is free to use for personal and commercial usage. However, you may not
+redistribute GPU-Z as part of a commercial package. We also offer a GPU-Z SDK,
+which is provided as simple-to-use DLL with full feature set. Commercial support
+and customization options are available, please contact us for details.
+
+An alternative compatible driver (without signed binaries) licensed under LGPL
+is provided in the Driver folder.

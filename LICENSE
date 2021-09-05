@@ -1,0 +1,22 @@
+All original code is licensed under LGPL 2.1, the text of which is included
+in the COPYING file. See the file headers and LICENSE files in folders for
+licensing details of each component or file.
+
+The signed driver binaries in the DriverBins folder are part of GPU-Z, and can
+only be redistributed non-commercially. An alternative compatible driver
+(without signed binaries) licensed under LGPL 2.1 is provided in the Driver
+folder. For details see DriverBins\LICENSE and Driver\LICENSE
+
+Some code is from the KDU project, originally licensed under the MIT license:
+
+Copyright (c) 2020 - 2021 KDU Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
