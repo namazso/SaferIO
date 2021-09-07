@@ -52,8 +52,8 @@ _dell PROC
 	pop rsi
 	pop rbx
 
-	xor eax, eax
 	setb al
+	movzx eax, al
 
 	ret
 _dell ENDP

@@ -56,8 +56,8 @@ PUBLIC @_dell@4
 	pop esi
 	pop ebx
 
-	xor eax, eax
 	setb al
+	movzx eax, al
 
 	ret
 @_dell@4 ENDP
