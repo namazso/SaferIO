@@ -24,10 +24,14 @@
 
 PUBLIC _dell
 
-_dell PROC
+_dell PROC FRAME
 	push rbx
+    .pushreg rbx
 	push rsi
+    .pushreg rsi
 	push rdi
+    .pushreg rdi
+    .endprolog
 
 	mov r8, rcx
 
